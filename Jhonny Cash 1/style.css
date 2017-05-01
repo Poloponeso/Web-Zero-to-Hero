@@ -1,0 +1,80 @@
+body{background-color: black; font-size: 16px}
+
+/* Header Section*/
+#header{
+	width: 100%; 
+	height 300px; 
+	background-color: #030303; 
+	text-align: center
+}
+
+#header h1{
+	color: aliceblue;
+	font-size: 7em;
+	font-family: 'Cinzel', serif;
+	font-weight: normal
+}
+
+/*Content Section*/
+.content{
+	width: 100%; 
+	height:34.375em;
+	height: black; 
+	background-color: black;
+	margin-top: 1px;
+	padding-bottom: 1%;
+
+}
+
+.content #text{
+	width:38%;
+	height: inherit;
+	float: right; 
+	background-color: #030303;
+	text-align: center;
+	font-family: font-family: 'Josefin Sans', sans-serif;
+	overflow-y: auto;
+
+}
+#text #title{
+	color: aliceblue;  
+	font-size: 1.7em;
+}
+#text #lyrics{
+	margin-top: 5%;
+	color: aliceblue; 
+	font-size: 1em; 
+	line-height:1.0;
+	max-height: inherit;
+
+}
+
+
+
+.content #image{
+	width: 60%;
+	height: 34.375em;
+	backgroound-color: black;
+}
+
+#image img{
+	max-width:100%;
+	max-height: inherit;
+	height: 34.375em;
+}
+
+
+
+/*Footer section*/
+#footer{
+	font-family: "Courier New", Courier, monospace;
+	width: 100%; 
+	height:20px; 
+	background-color:#030303;
+	color: aliceblue;
+	text-align: left;
+	margin-top: 0.5%;
+	font-family: 'Josefin Sans', sans-serif;
+
+	
+}
